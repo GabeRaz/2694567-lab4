@@ -7,7 +7,7 @@ const errorMessage = document.getElementById('error-message');
 
 async function searchCountry(countryName) {
     if (!countryName) return;
-
+  
     try {
         // Reset UI
         errorMessage.classList.add('hidden');
